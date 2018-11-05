@@ -9,7 +9,7 @@ public class OrderedArrayList<T extends Comparable<T>> extends NoNullArrayList<T
   private int findIndex(T element) {
     int index = 0;
     for(int i = 0; i < this.size(); i = i + 1) {
-      if (this.get(i).compareTo(element) > 0) {
+      if (this.get(i).compareTo(element) < 0) {
         index = index + 1;
       }
     }
