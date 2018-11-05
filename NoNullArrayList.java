@@ -1,7 +1,7 @@
 import java.util.ArrayList;
-import java.util.List;
 public class NoNullArrayList<T> extends ArrayList<T> {
-  public NoNullArrayList(int startingCapacity) {
+  public NoNullArrayList() {
+    super();
   }
   public NoNullArrayList(int startingCapacity) {
     super(startingCapacity);
