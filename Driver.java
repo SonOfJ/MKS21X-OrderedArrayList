@@ -31,15 +31,15 @@ public class Driver {
 
     // NOTE: comment these null tests out accordingly, as thrown errors stop the program
 
-    NAL.add(null); System.out.println("NAL.add(null)");
+    //NAL.add(null); System.out.println("NAL.add(null)");
     // [i'm, invincible!, you're, a, looney, null]
     // IllegalArgumentException: null, invalid input
 
-    NAL.add(null); System.out.println("NAL.add(2,null)");
+    //NAL.add(null); System.out.println("NAL.add(2,null)");
     // [i'm, invincible!, null, you're, a, looney]
     // IllegalArgumentException: null, invalid input
 
-    NAL.set(0,null); System.out.println("NAL.set(0,null)");
+    //NAL.set(0,null); System.out.println("NAL.set(0,null)");
     // [null, invincible!, you're, a, looney]
     // IllegalArgumentException: null, invalid input
 
