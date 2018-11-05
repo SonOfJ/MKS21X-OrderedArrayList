@@ -19,4 +19,10 @@ public class NoNullArrayList<T> extends ArrayList<T> {
     super.add(element);
     return true;
   }
+  public void add(int index, T element) {
+    if (element == null) {
+      throw new IllegalArgumentException("Invalid element, can't initiate add command");
+    }
+    super.add(index, element);
+  }
 }
